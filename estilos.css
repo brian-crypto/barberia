@@ -125,6 +125,7 @@ body{
 .contacto__formulario__input,
 .contacto__formulario__submit{
     width: 50%;
+    margin: auto;
     height: 40px; 
     border: none;
     background: #181818;
@@ -133,6 +134,7 @@ body{
 .contacto__formulario__label{
     padding: 5px;
 }
+
 
 .contacto__formulario__submit{
     cursor: pointer;
@@ -194,5 +196,10 @@ textarea::placeholder {
     }
     .locales__logo{
         font-size: 30px;
+    }
+    .contacto__formulario__input{
+        height: 20%;
+        width: 90%;
+        text-align: center;
     }
 }
